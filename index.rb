@@ -14,7 +14,7 @@ def request(url)
     results = JSON.parse(response.read_body)
 end
 # limitamos la respuesta a 10 registros
-data = request("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY")
+data = request("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=UUwWiOoisWanWwJR7hLGZINRsSk46Lv0bU86KS60")
 # recorremos la respuesta y obetnemos las "thumbnailUrl"
 #photos = data.map do |photo|
 #    photo["img_src"]
