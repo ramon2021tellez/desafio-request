@@ -29,4 +29,4 @@ end
 
 File.write('index.html', html)
 
-#puts buid_web_page("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY")[0..9]
+#puts buid_web_page("https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=UUwWiOoisWanWwJR7hLGZINRsSk46Lv0bU86KS60")[0..9]
